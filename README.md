@@ -29,6 +29,24 @@ git clone https://github.com/yourusername/log-archive-cli.git
 cd log-archive-cli
 ```
 
+## Usage
+Make it executable:
+```
+chmod +x log_archive.py
+python3 log_archive.py /var/log
+```
+
+## Output
+Compressed archive: archived_logs/logs_archive_YYYYMMDD_HHMMSS.tar.gz
+Log file: archived_logs/archive_log.txt
+
+## Schedule Archiving (Optional)
+To automate the archiving process using cron:
+```
+crontab -e
+```
+
 ## Solutions
 ```
 https://roadmap.sh/projects/log-archive-tool
+```
