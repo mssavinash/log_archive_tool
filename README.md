@@ -46,7 +46,5 @@ To automate the archiving process using cron:
 crontab -e
 ```
 
-## Solutions
-```
-https://roadmap.sh/projects/log-archive-tool
-```
+## Project
+[https://roadmap.sh/projects/log-archive-tool]
